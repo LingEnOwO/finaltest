@@ -1,13 +1,13 @@
 body {
-	font-size: 14px;
+	font-size: 14px; /*字體大小*/
 }
 ol {
 	font-size:24px;
 	list-style-type:none;
 	margin:0;
 	padding:0;
-	overflow:hidden;
-	background-color:#E0E0E0;
+	overflow:hidden; /*自動隱藏超出的文字或圖片*/
+	background-color:#E0E0E0;/* navigation bar的顏色*/
 	top:0;
 	width:100%;
 }
@@ -20,7 +20,7 @@ ol a {
 	text-decoration:none;
 }
 ol a:hover:not(.active) {
-	background-color:#FFFFFF;
+	background-color:#FFFFFF;/* 鼠標移到navigation bar變得顏色*/
 }
 ol a.active {
 	bakground-color:orange;
@@ -31,7 +31,7 @@ table{
 	height: 300px; 	
    	word-wrap: break-word;
    	table-layout: fixed;
-   }
+   } /*固定table大小*/
 
 
 p{padding:0px; margin:0px;display: inline;}
